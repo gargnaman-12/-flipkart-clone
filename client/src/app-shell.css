@@ -1,0 +1,41 @@
+.fk-app {
+  min-height: 100vh;
+  background: #f1f3f6;
+}
+
+.fk-toast {
+  position: fixed;
+  top: 86px;
+  right: 14px;
+  z-index: 50;
+  max-width: 320px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(135deg, #1a7f37, #15702f);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 14px 30px rgba(9, 30, 66, 0.25);
+  font-weight: 800;
+  font-size: 13px;
+}
+
+/* nicer scrollbars on Windows */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(9, 30, 66, 0.35) rgba(0, 0, 0, 0);
+}
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(9, 30, 66, 0.28);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
